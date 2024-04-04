@@ -1,4 +1,4 @@
-# Projeto site simples de vidraçaria
+# Site simples de vidraçaria
 ![Static Badge](https://img.shields.io/badge/Licence-MIT-green)
 
 ## Sobre o Projeto
