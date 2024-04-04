@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vidraçaria</title>
+    <link rel="stylesheet" href="./arquivos/estilos/geral.css" />
+    <script src="./arquivos/scripts/geral.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Vidraçaria XYZ</h1>
+      <nav>
+        <ul>
+          <li onclick="loadPage('index')">Home</li>
+          <li onclick="loadPage('servicos')">Serviços</li>
+          <li onclick="loadPage('portfolio')">Portfólio</li>
+          <li onclick="loadPage('sobre')">Sobre</li>
+          <li onclick="loadPage('contato')">Contato</li>
+        </ul>
+      </nav>
+      <div class="btnNoturno">
+        <label for="toggle">Noturno</label>
+        <div class="toggle-button" id="btnNoturno" data-before="+">
+            <div class="toggle-button-before"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Aqui será o conteúdo dinâmico -->
+    <div id="content"></div>
+
+    <footer>
+      <p>&copy; 2024 Vidraçaria XYZ. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

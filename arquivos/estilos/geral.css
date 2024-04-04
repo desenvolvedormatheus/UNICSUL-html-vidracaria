@@ -1,0 +1,84 @@
+:root{
+    --primary-color: #333;
+    --primary-text: #f0f0f0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--primary-text);
+}
+*{
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+/* Header */
+header {
+    background-color: var(--primary-color);
+    color: var(--primary-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem;
+}
+nav{
+    margin-left: auto;
+    border-right: 1px solid var(--primary-text);
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+nav ul li {
+    color: var(--primary-text);
+    cursor: pointer;
+    padding: 1rem 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--primary-text);
+    text-align: center;
+    padding: 0.8rem 0;
+}
+footer p {
+    margin: 0;
+}
+
+/* Alavanca */
+.btnNoturno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    margin: 1rem;
+}
+.toggle-button {
+    display: inline-block;
+    width: 3rem;
+    height: 1rem;
+    background-color: var(--primary-text);
+    border-radius: 1rem;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button-before {
+    content: '';
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    top: 50%;
+    left: 3px;
+    transition: 0.3s;
+    transform: translateY(-50%);
+}
