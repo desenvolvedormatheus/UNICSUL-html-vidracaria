@@ -1,13 +1,14 @@
 body{
-    background-image: url('https://www.area17.com.br/admin/fotos/estabelecimentos/vidracaria-brasil-bariri-55067_633c77b32486f.jpg');
+    background-image: url('https://img.freepik.com/fotos-premium/belo-modelo-de-design-com-faixa-de-vidro-azul-claro-em-fundo-azul-suave-cenario-de-luz-neon-luz-azul-elemento-de-design-abstrato-design-de-ilustracao-ai_155807-7748.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1712188800&semt=ais');
     background-size: cover;
+    backdrop-filter: blur(5px);
     background-position: center;
 }
 .home-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--primary-color);
+    color: #333;
     text-align: center;
 }
 

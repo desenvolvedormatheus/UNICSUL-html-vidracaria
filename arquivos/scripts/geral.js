@@ -123,12 +123,94 @@ function loadPage(page) {
                 </div>
                 <div class="contact-form">
                     <h2>Envie uma Mensagem</h2>
-                    <form class="form" action="#" method="POST">
+                    <form class="form" action="https://desenvolvedormatheus.github.io/UNICSUL-html-vidracaria/" method="POST">
                         <input type="text" name="nome" placeholder="Seu Nome" required>
                         <input type="email" name="email" placeholder="Seu Email" required>
                         <textarea name="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
-                        <button type="submit">Enviar</button>
+                        <button disabled>Enviar</button>
                     </form>
+                </div>
+            </section>
+            `;
+            break;
+        case 'avaliacoes':
+            contentDiv.innerHTML = `
+            <link rel="stylesheet" href="./arquivos/estilos/avaliacoes/sessao1.css">
+            <section class="container">
+                <h1>Comentários</h1>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Excelente Serviço!</h3>
+                        <p>"A vidraçaria fez um trabalho incrível na minha casa. Os profissionais foram rápidos, eficientes e o resultado ficou perfeito!"</p>
+                    </div>
+                    <div class="card">
+                        <h3>Qualidade Impecável</h3>
+                        <p>"Os vidros da minha varanda ficaram lindos! A qualidade é impecável, e o atendimento foi excepcional."</p>
+                    </div>
+                    <div class="card">
+                        <h3>Profissionais Competentes</h3>
+                        <p>"Contratei a vidraçaria para instalar um box no meu banheiro. Os profissionais foram super competentes e o resultado final ficou ótimo!"</p>
+                    </div>
+                    <div class="card">
+                        <h3>Excelente Serviço!</h3>
+                        <p>"A vidraçaria fez um trabalho incrível na minha casa. Os profissionais foram rápidos, eficientes e o resultado ficou perfeito!"</p>
+                    </div>
+                    <div class="card">
+                        <h3>Qualidade Impecável</h3>
+                        <p>"Os vidros da minha varanda ficaram lindos! A qualidade é impecável, e o atendimento foi excepcional."</p>
+                    </div>
+                    <div class="card">
+                        <h3>Profissionais Competentes</h3>
+                        <p>"Contratei a vidraçaria para instalar um box no meu banheiro. Os profissionais foram super competentes e o resultado final ficou ótimo!"</p>
+                    </div>
+                    <div class="card">
+                        <h3>Excelente Serviço!</h3>
+                        <p>"A vidraçaria fez um trabalho incrível na minha casa. Os profissionais foram rápidos, eficientes e o resultado ficou perfeito!"</p>
+                    </div>
+                    <div class="card">
+                        <h3>Qualidade Impecável</h3>
+                        <p>"Os vidros da minha varanda ficaram lindos! A qualidade é impecável, e o atendimento foi excepcional."</p>
+                    </div>
+                    <div class="card">
+                        <h3>Profissionais Competentes</h3>
+                        <p>"Contratei a vidraçaria para instalar um box no meu banheiro. Os profissionais foram super competentes e o resultado final ficou ótimo!"</p>
+                    </div>
+                    <div class="card">
+                        <h3>Excelente Serviço!</h3>
+                        <p>"A vidraçaria fez um trabalho incrível na minha casa. Os profissionais foram rápidos, eficientes e o resultado ficou perfeito!"</p>
+                    </div>
+                    <div class="card">
+                        <h3>Qualidade Impecável</h3>
+                        <p>"Os vidros da minha varanda ficaram lindos! A qualidade é impecável, e o atendimento foi excepcional."</p>
+                    </div>
+                    <div class="card">
+                        <h3>Profissionais Competentes</h3>
+                        <p>"Contratei a vidraçaria para instalar um box no meu banheiro. Os profissionais foram super competentes e o resultado final ficou ótimo!"</p>
+                    </div>
+                    <div class="card">
+                        <h3>Excelente Serviço!</h3>
+                        <p>"A vidraçaria fez um trabalho incrível na minha casa. Os profissionais foram rápidos, eficientes e o resultado ficou perfeito!"</p>
+                    </div>
+                    <div class="card">
+                        <h3>Qualidade Impecável</h3>
+                        <p>"Os vidros da minha varanda ficaram lindos! A qualidade é impecável, e o atendimento foi excepcional."</p>
+                    </div>
+                    <div class="card">
+                        <h3>Profissionais Competentes</h3>
+                        <p>"Contratei a vidraçaria para instalar um box no meu banheiro. Os profissionais foram super competentes e o resultado final ficou ótimo!"</p>
+                    </div>
+                    <div class="card">
+                        <h3>Excelente Serviço!</h3>
+                        <p>"A vidraçaria fez um trabalho incrível na minha casa. Os profissionais foram rápidos, eficientes e o resultado ficou perfeito!"</p>
+                    </div>
+                    <div class="card">
+                        <h3>Qualidade Impecável</h3>
+                        <p>"Os vidros da minha varanda ficaram lindos! A qualidade é impecável, e o atendimento foi excepcional."</p>
+                    </div>
+                    <div class="card">
+                        <h3>Profissionais Competentes</h3>
+                        <p>"Contratei a vidraçaria para instalar um box no meu banheiro. Os profissionais foram super competentes e o resultado final ficou ótimo!"</p>
+                    </div>
                 </div>
             </section>
             `;
